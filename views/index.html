@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+
+    <title>Museu Nacional</title>
+</head>
+<body>
+
+    <div id="container"><!--inicio container-->
+
+        <header><!--inicio header-->
+            <div id="logo">
+                <h1><a href="#">Museu Nacional</a></h1>
+            </div>
+
+            <nav><!--inicio nav-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposoções</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervos</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul><!--final nav-->
+            </nav>
+
+        </header><!--final header-->
+
+        <div id="principal"><!--inicio principal-->
+
+            <div id="conteudo"><!--inicio conteudo-->
+                <section id="capa"> 
+                    <img src="../img/museu.png" alt="#">
+                </section>
+
+                <section id="postagens">
+
+                    <article id="video">
+                        <h3>Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa Encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1604965958060!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Os assustadores insetos</a>
+                            </li>
+                            <li>
+                                <a href="#">O crânio de Luiza</a>
+                            </li>
+                            <li>
+                                <a href="#">Preguiça gigante</a>
+                            </li>
+                            <li>
+                                <a href="#">Plantas do Brasil Central</a>
+                            </li>
+                            <li>
+                                <a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a>
+                            </li>
+                            <li>
+                                <a href="#">Tigre dentes de sabre</a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <a href="#"> <strong>Leia mais</strong></a>
+                    </article>
+
+                </section>
+            </div><!--final conteudo-->
+
+            <aside><!--inicio aside-->
+                <section id="depoimento">
+                   <img src="../img/depoimento.png" alt="#"> 
+                </section>
+
+                <section id="visita"> <!--inicio visita-->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input  class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd de Pessoas</label>
+                            <input  class="campo" style="width: 30px;" type="text"  id="qtd" value="1">
+
+                        </fieldset>
+
+                        <input class="botao" type="submit"  value="Verificar disponibilidade">
+
+                    </form>
+                </section><!--final visita-->
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="../img/imagem1.jpg" heigth="93" width="93"alt="#">
+                    </a>
+
+                    <a href="">
+                        <img src="../img/imagem2.jpg" heigth="93" width="93"alt="#">
+                    </a>
+
+                    <a href="">
+                        <img src="../img/imagem3.jpg" heigth="93" width="93"alt="#">
+                    </a>
+
+                    <a href="">
+                        <img src="../img/imagem4.jpg" heigth="93" width="93"alt="#">
+                    </a>
+
+                </section>
+
+            </aside><!--final aside-->
+
+            <footer>
+               <p>
+                 <a href="#">Home</a>
+                 <a href="#">Exposoções</a>
+                 <a href="#">Pesquisa</a>
+                 <a href="#">Acervos</a>
+                 <a href="#">Vídeos</a>
+                 <a href="#">Contato</a>
+               </p>
+
+               <p>
+                 2019 <a href="#">Museu Nacional</a> - Todos os direitos reservados.
+              </p>
+
+            </footer>
+
+        </div><!--final principal-->
+        <div style="clear: both"></div>
+
+    </div><!--final container-->
+    
+</body>
+</html>
